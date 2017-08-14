@@ -1,0 +1,17 @@
+#e7-3-9簡單框架應用
+from tkinter import *
+root= Tk()
+root.geometry('500x700')
+frame1 = Frame(root) 
+frame1.pack( )
+frame2 = Frame(root) 
+frame2.pack(side =BOTTOM)
+lbl1 = Label(frame1,text = "用戶名",width = 8) 
+lbl1.pack( side =LEFT)
+entry1 = Entry(frame1) 
+entry1.pack(side = RIGHT)
+lb12 = Label(frame2,text = "指令",width= 8) 
+lb12.pack(side =LEFT)
+Entry2 = Entry( frame2) 
+Entry2.pack( side = RIGHT)
+root.mainloop()
